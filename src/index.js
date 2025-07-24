@@ -7,7 +7,7 @@ const app = express();
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://nep-dash.vercel.app/",
+  "https://nep-dash.vercel.app",
 ];
 
 app.use(express.json());
