@@ -6,7 +6,7 @@ import docs from "../src/routes/docs.js"; // Make sure this path is correct
 const app = express();
 
 const allowedOrigins = [
-  "http://localhost.5173",
+  "http://localhost:5173",
   "https://nep-dash.vercel.app/",
 ];
 
