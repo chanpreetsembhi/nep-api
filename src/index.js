@@ -23,7 +23,7 @@ app.use(
     },
   })
 );
-app.use("/api", docs);
+app.use("/", docs);
 
 // MongoDB Connection
 let isConnected = false;
